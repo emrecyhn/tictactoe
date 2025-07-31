@@ -54,3 +54,5 @@ class TicTacToe:
         for row in self.board:
             print(' '.join(symbol_map[val] for val in row))
         print()
+
+
